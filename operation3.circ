@@ -121,44 +121,60 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(170,420)" to="(170,600)"/>
     <wire from="(580,330)" to="(580,380)"/>
     <wire from="(130,540)" to="(130,600)"/>
-    <comp lib="6" loc="(351,252)" name="Text">
-      <a name="text" val="A+B+C"/>
+    <comp lib="1" loc="(530,330)" name="AND Gate">
+      <a name="inputs" val="3"/>
     </comp>
-    <comp lib="0" loc="(170,70)" name="Pin">
+    <comp lib="1" loc="(80,220)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(320,540)" name="OR Gate">
+    <comp lib="1" loc="(190,220)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(567,294)" name="Text">
+      <a name="text" val="(A+B+C)(A+B&quot;+C')(A'+B+C)"/>
+    </comp>
+    <comp lib="1" loc="(640,400)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="6" loc="(348,463)" name="Text">
       <a name="text" val="A'+B+C'"/>
     </comp>
-    <comp lib="1" loc="(80,220)" name="NOT Gate">
+    <comp lib="0" loc="(50,70)" name="Pin">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(320,330)" name="OR Gate">
+    <comp lib="1" loc="(320,540)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(320,400)" name="OR Gate">
+    <comp lib="1" loc="(320,470)" name="OR Gate">
       <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(704,484)" name="Text">
-      <a name="text" val="Shahabuddin Ahmed Ovi"/>
-    </comp>
-    <comp lib="1" loc="(190,220)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="6" loc="(352,321)" name="Text">
-      <a name="text" val="A+B'+C&quot;"/>
-    </comp>
-    <comp lib="6" loc="(727,365)" name="Text">
-      <a name="text" val="F=(A+B+C)(A+B+C')(A'+B+C)(A'+B+C')(A'+B'+C')"/>
     </comp>
     <comp lib="0" loc="(110,70)" name="Pin">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="6" loc="(68,184)" name="Text">
-      <a name="text" val="A'"/>
+    <comp lib="6" loc="(351,530)" name="Text">
+      <a name="text" val="A'+B'+C'"/>
+    </comp>
+    <comp lib="6" loc="(388,607)" name="Text">
+      <a name="text" val="Fig2: 2nd Canonical Form"/>
+    </comp>
+    <comp lib="6" loc="(351,252)" name="Text">
+      <a name="text" val="A+B+C"/>
+    </comp>
+    <comp lib="6" loc="(201,186)" name="Text">
+      <a name="text" val="C'"/>
+    </comp>
+    <comp lib="0" loc="(690,400)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(320,330)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(320,260)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(130,220)" name="NOT Gate">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="6" loc="(107,42)" name="Text">
       <a name="text" val="B"/>
@@ -166,47 +182,25 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(49,40)" name="Text">
       <a name="text" val="A"/>
     </comp>
-    <comp lib="0" loc="(690,400)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="6" loc="(352,321)" name="Text">
+      <a name="text" val="A+B'+C&quot;"/>
     </comp>
-    <comp lib="1" loc="(130,220)" name="NOT Gate">
+    <comp lib="0" loc="(170,70)" name="Pin">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="6" loc="(705,500)" name="Text">
-      <a name="text" val="2312245642"/>
-    </comp>
-    <comp lib="6" loc="(170,38)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(320,260)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(388,607)" name="Text">
-      <a name="text" val="Fig2: 2nd Canonical Form"/>
+    <comp lib="6" loc="(727,365)" name="Text">
+      <a name="text" val="F=(A+B+C)(A+B+C')(A'+B+C)(A'+B+C')(A'+B'+C')"/>
     </comp>
     <comp lib="6" loc="(350,393)" name="Text">
       <a name="text" val="A'+B+C"/>
     </comp>
-    <comp lib="6" loc="(567,294)" name="Text">
-      <a name="text" val="(A+B+C)(A+B&quot;+C')(A'+B+C)"/>
+    <comp lib="6" loc="(68,184)" name="Text">
+      <a name="text" val="A'"/>
     </comp>
-    <comp lib="0" loc="(50,70)" name="Pin">
-      <a name="facing" val="south"/>
+    <comp lib="6" loc="(170,38)" name="Text">
+      <a name="text" val="C"/>
     </comp>
-    <comp lib="1" loc="(530,330)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(351,530)" name="Text">
-      <a name="text" val="A'+B'+C'"/>
-    </comp>
-    <comp lib="1" loc="(320,470)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(201,186)" name="Text">
-      <a name="text" val="C'"/>
-    </comp>
-    <comp lib="1" loc="(640,400)" name="AND Gate">
+    <comp lib="1" loc="(320,400)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="6" loc="(142,184)" name="Text">
