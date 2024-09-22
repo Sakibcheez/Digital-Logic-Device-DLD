@@ -59,148 +59,154 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(190,230)" to="(190,360)"/>
-    <wire from="(80,460)" to="(270,460)"/>
-    <wire from="(320,550)" to="(570,550)"/>
-    <wire from="(190,500)" to="(190,570)"/>
-    <wire from="(80,390)" to="(80,460)"/>
-    <wire from="(50,110)" to="(50,250)"/>
-    <wire from="(110,270)" to="(110,410)"/>
-    <wire from="(170,290)" to="(170,430)"/>
-    <wire from="(130,340)" to="(130,550)"/>
-    <wire from="(80,530)" to="(80,610)"/>
-    <wire from="(320,270)" to="(430,270)"/>
-    <wire from="(80,110)" to="(80,200)"/>
-    <wire from="(170,290)" to="(270,290)"/>
-    <wire from="(170,430)" to="(270,430)"/>
-    <wire from="(110,110)" to="(110,270)"/>
-    <wire from="(110,480)" to="(270,480)"/>
-    <wire from="(50,110)" to="(80,110)"/>
-    <wire from="(50,250)" to="(270,250)"/>
-    <wire from="(190,570)" to="(190,610)"/>
-    <wire from="(190,570)" to="(270,570)"/>
-    <wire from="(430,270)" to="(430,320)"/>
-    <wire from="(170,110)" to="(170,290)"/>
-    <wire from="(130,340)" to="(270,340)"/>
-    <wire from="(170,430)" to="(170,610)"/>
-    <wire from="(580,340)" to="(580,390)"/>
-    <wire from="(130,550)" to="(130,610)"/>
-    <wire from="(80,390)" to="(270,390)"/>
-    <wire from="(110,480)" to="(110,610)"/>
-    <wire from="(80,530)" to="(270,530)"/>
-    <wire from="(50,250)" to="(50,320)"/>
-    <wire from="(530,340)" to="(580,340)"/>
-    <wire from="(110,410)" to="(110,480)"/>
-    <wire from="(80,460)" to="(80,530)"/>
-    <wire from="(640,410)" to="(690,410)"/>
-    <wire from="(430,320)" to="(480,320)"/>
-    <wire from="(550,410)" to="(550,480)"/>
-    <wire from="(190,360)" to="(190,500)"/>
-    <wire from="(550,410)" to="(590,410)"/>
-    <wire from="(130,110)" to="(130,200)"/>
-    <wire from="(190,110)" to="(190,200)"/>
-    <wire from="(170,80)" to="(170,110)"/>
-    <wire from="(50,80)" to="(50,110)"/>
-    <wire from="(110,80)" to="(110,110)"/>
-    <wire from="(320,480)" to="(550,480)"/>
-    <wire from="(110,270)" to="(270,270)"/>
-    <wire from="(80,230)" to="(80,390)"/>
-    <wire from="(110,410)" to="(270,410)"/>
-    <wire from="(50,320)" to="(50,610)"/>
-    <wire from="(570,430)" to="(590,430)"/>
-    <wire from="(50,320)" to="(270,320)"/>
-    <wire from="(320,340)" to="(480,340)"/>
-    <wire from="(130,230)" to="(130,340)"/>
-    <wire from="(110,110)" to="(130,110)"/>
-    <wire from="(170,110)" to="(190,110)"/>
-    <wire from="(320,410)" to="(470,410)"/>
-    <wire from="(570,430)" to="(570,550)"/>
-    <wire from="(470,360)" to="(480,360)"/>
-    <wire from="(190,360)" to="(270,360)"/>
-    <wire from="(190,500)" to="(270,500)"/>
-    <wire from="(470,360)" to="(470,410)"/>
-    <wire from="(130,550)" to="(270,550)"/>
-    <wire from="(580,390)" to="(590,390)"/>
-    <comp lib="1" loc="(320,480)" name="OR Gate">
+    <wire from="(80,380)" to="(270,380)"/>
+    <wire from="(110,470)" to="(110,600)"/>
+    <wire from="(80,520)" to="(270,520)"/>
+    <wire from="(50,240)" to="(50,310)"/>
+    <wire from="(530,330)" to="(580,330)"/>
+    <wire from="(110,400)" to="(110,470)"/>
+    <wire from="(80,450)" to="(80,520)"/>
+    <wire from="(640,400)" to="(690,400)"/>
+    <wire from="(430,310)" to="(480,310)"/>
+    <wire from="(550,400)" to="(550,470)"/>
+    <wire from="(190,350)" to="(190,490)"/>
+    <wire from="(550,400)" to="(590,400)"/>
+    <wire from="(130,100)" to="(130,190)"/>
+    <wire from="(190,100)" to="(190,190)"/>
+    <wire from="(170,70)" to="(170,100)"/>
+    <wire from="(50,70)" to="(50,100)"/>
+    <wire from="(110,70)" to="(110,100)"/>
+    <wire from="(320,470)" to="(550,470)"/>
+    <wire from="(110,260)" to="(270,260)"/>
+    <wire from="(80,220)" to="(80,380)"/>
+    <wire from="(110,400)" to="(270,400)"/>
+    <wire from="(50,310)" to="(50,600)"/>
+    <wire from="(570,420)" to="(590,420)"/>
+    <wire from="(50,310)" to="(270,310)"/>
+    <wire from="(320,330)" to="(480,330)"/>
+    <wire from="(130,220)" to="(130,330)"/>
+    <wire from="(110,100)" to="(130,100)"/>
+    <wire from="(170,100)" to="(190,100)"/>
+    <wire from="(320,400)" to="(470,400)"/>
+    <wire from="(570,420)" to="(570,540)"/>
+    <wire from="(470,350)" to="(480,350)"/>
+    <wire from="(190,350)" to="(270,350)"/>
+    <wire from="(190,490)" to="(270,490)"/>
+    <wire from="(470,350)" to="(470,400)"/>
+    <wire from="(130,540)" to="(270,540)"/>
+    <wire from="(580,380)" to="(590,380)"/>
+    <wire from="(190,220)" to="(190,350)"/>
+    <wire from="(80,450)" to="(270,450)"/>
+    <wire from="(320,540)" to="(570,540)"/>
+    <wire from="(190,490)" to="(190,560)"/>
+    <wire from="(80,380)" to="(80,450)"/>
+    <wire from="(50,100)" to="(50,240)"/>
+    <wire from="(110,260)" to="(110,400)"/>
+    <wire from="(170,280)" to="(170,420)"/>
+    <wire from="(130,330)" to="(130,540)"/>
+    <wire from="(80,520)" to="(80,600)"/>
+    <wire from="(320,260)" to="(430,260)"/>
+    <wire from="(80,100)" to="(80,190)"/>
+    <wire from="(170,280)" to="(270,280)"/>
+    <wire from="(170,420)" to="(270,420)"/>
+    <wire from="(110,100)" to="(110,260)"/>
+    <wire from="(110,470)" to="(270,470)"/>
+    <wire from="(50,100)" to="(80,100)"/>
+    <wire from="(50,240)" to="(270,240)"/>
+    <wire from="(190,560)" to="(190,600)"/>
+    <wire from="(190,560)" to="(270,560)"/>
+    <wire from="(430,260)" to="(430,310)"/>
+    <wire from="(170,100)" to="(170,280)"/>
+    <wire from="(130,330)" to="(270,330)"/>
+    <wire from="(170,420)" to="(170,600)"/>
+    <wire from="(580,330)" to="(580,380)"/>
+    <wire from="(130,540)" to="(130,600)"/>
+    <comp lib="6" loc="(49,40)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="0" loc="(50,70)" name="Pin">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(352,321)" name="Text">
+      <a name="text" val="A+B'+C"/>
+    </comp>
+    <comp lib="6" loc="(704,484)" name="Text">
+      <a name="text" val="Shahabuddin Ahmed Ovi"/>
+    </comp>
+    <comp lib="1" loc="(320,540)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="6" loc="(350,403)" name="Text">
+    <comp lib="1" loc="(130,220)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(640,400)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(348,463)" name="Text">
+      <a name="text" val="A'+B+C'"/>
+    </comp>
+    <comp lib="1" loc="(80,220)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(567,294)" name="Text">
+      <a name="text" val="F=(A+B+C)(A+B+C')(A'+B+C)"/>
+    </comp>
+    <comp lib="1" loc="(530,330)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(110,70)" name="Pin">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(351,530)" name="Text">
+      <a name="text" val="A'+B'+C'"/>
+    </comp>
+    <comp lib="1" loc="(320,260)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="6" loc="(350,393)" name="Text">
       <a name="text" val="A'+B+C"/>
     </comp>
-    <comp lib="0" loc="(170,80)" name="Pin">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(320,410)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(107,52)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="0" loc="(50,80)" name="Pin">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(690,410)" name="Pin">
+    <comp lib="0" loc="(690,400)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="6" loc="(124,100)" name="Text">
-      <a name="text" val="B'"/>
-    </comp>
-    <comp lib="0" loc="(110,80)" name="Pin">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(320,340)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(191,100)" name="Text">
-      <a name="text" val="C'"/>
-    </comp>
-    <comp lib="6" loc="(352,331)" name="Text">
-      <a name="text" val="A+B'+C"/>
-    </comp>
-    <comp lib="1" loc="(130,230)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(80,230)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="6" loc="(64,100)" name="Text">
-      <a name="text" val="A'"/>
-    </comp>
-    <comp lib="6" loc="(348,473)" name="Text">
-      <a name="text" val="A'+B+C'"/>
-    </comp>
-    <comp lib="6" loc="(351,262)" name="Text">
-      <a name="text" val="A+B+C"/>
-    </comp>
-    <comp lib="1" loc="(320,550)" name="OR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="6" loc="(727,375)" name="Text">
-      <a name="text" val="F=(A+B+C)(A+B+C')(A'+B+C)(A'+B+C')(A'+B'+C')"/>
-    </comp>
-    <comp lib="6" loc="(49,50)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="6" loc="(170,48)" name="Text">
+    <comp lib="6" loc="(170,38)" name="Text">
       <a name="text" val="C"/>
     </comp>
-    <comp lib="6" loc="(351,540)" name="Text">
-      <a name="text" val="A'+B'+C'"/>
-    </comp>
-    <comp lib="1" loc="(190,230)" name="NOT Gate">
+    <comp lib="0" loc="(170,70)" name="Pin">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(320,270)" name="OR Gate">
+    <comp lib="1" loc="(320,470)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="6" loc="(567,304)" name="Text">
-      <a name="text" val="F=(A+B+C)(A+B+C')(A'+B+C)"/>
+    <comp lib="6" loc="(705,500)" name="Text">
+      <a name="text" val="2312245642"/>
     </comp>
-    <comp lib="1" loc="(530,340)" name="AND Gate">
+    <comp lib="6" loc="(107,42)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="6" loc="(124,90)" name="Text">
+      <a name="text" val="B'"/>
+    </comp>
+    <comp lib="1" loc="(320,330)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(640,410)" name="AND Gate">
+    <comp lib="1" loc="(190,220)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="6" loc="(351,252)" name="Text">
+      <a name="text" val="A+B+C"/>
+    </comp>
+    <comp lib="6" loc="(191,90)" name="Text">
+      <a name="text" val="C'"/>
+    </comp>
+    <comp lib="6" loc="(727,365)" name="Text">
+      <a name="text" val="F=(A+B+C)(A+B+C')(A'+B+C)(A'+B+C')(A'+B'+C')"/>
+    </comp>
+    <comp lib="6" loc="(64,90)" name="Text">
+      <a name="text" val="A'"/>
+    </comp>
+    <comp lib="1" loc="(320,400)" name="OR Gate">
       <a name="inputs" val="3"/>
     </comp>
   </circuit>
