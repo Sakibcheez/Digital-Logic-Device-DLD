@@ -355,7 +355,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="6" loc="(300,680)" name="Text">
-      <a name="text" val="(C+D)'=C'D'"/>
+      <a name="text" val="(C+D)' =C'D'"/>
     </comp>
     <comp lib="6" loc="(199,310)" name="Text">
       <a name="text" val="D'"/>
@@ -376,7 +376,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="text" val="B'"/>
     </comp>
     <comp lib="6" loc="(665,696)" name="Text">
-      <a name="text" val="Y=C'D'+CD"/>
+      <a name="text" val="Y= C'D'+CD"/>
     </comp>
     <comp lib="6" loc="(56,21)" name="Text">
       <a name="text" val="B"/>
@@ -398,10 +398,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="6" loc="(299,161)" name="Text">
-      <a name="text" val="(B'+C')'=BC"/>
+      <a name="text" val="(B'+C')' =BC"/>
     </comp>
     <comp lib="6" loc="(809,428)" name="Text">
-      <a name="text" val="X=(BC'D'+BD'+B'C)"/>
+      <a name="text" val="X= (BC'D'+BD'+B'C)"/>
     </comp>
     <comp lib="1" loc="(590,550)" name="NOR Gate">
       <a name="inputs" val="2"/>
@@ -414,7 +414,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="6" loc="(406,915)" name="Text">
-      <a name="text" val="Z=D'"/>
+      <a name="text" val="Z = D'"/>
     </comp>
     <comp lib="1" loc="(200,220)" name="NOR Gate">
       <a name="inputs" val="2"/>
