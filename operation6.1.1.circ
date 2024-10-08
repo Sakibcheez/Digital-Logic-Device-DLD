@@ -249,6 +249,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(640,210)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="6" loc="(361,1005)" name="Text">
+      <a name="text" val="Figure E3 : Minimal Universal gate implementation of BCD to Excess-3 Converter"/>
+    </comp>
     <comp lib="1" loc="(360,80)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
@@ -268,11 +271,20 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(280,930)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="6" loc="(691,821)" name="Text">
+      <a name="text" val="Nafia Haque Muskan"/>
+    </comp>
     <comp lib="1" loc="(280,250)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="6" loc="(695,840)" name="Text">
+      <a name="text" val="ID : 2311677042"/>
+    </comp>
     <comp lib="1" loc="(200,280)" name="NOR Gate">
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(349,53)" name="Text">
+      <a name="text" val="(A+BC)'"/>
     </comp>
     <comp lib="1" loc="(370,810)" name="NOR Gate">
       <a name="inputs" val="2"/>
@@ -310,6 +322,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(770,450)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="6" loc="(541,175)" name="Text">
+      <a name="text" val="(A+BC+BD)'"/>
+    </comp>
+    <comp lib="6" loc="(641,184)" name="Text">
+      <a name="text" val="W= A+BC+BD"/>
+    </comp>
     <comp lib="1" loc="(560,550)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
@@ -322,6 +340,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(640,930)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+    </comp>
+    <comp lib="6" loc="(482,68)" name="Text">
+      <a name="text" val="A+BC"/>
     </comp>
     <comp lib="1" loc="(200,360)" name="NOR Gate">
       <a name="inputs" val="2"/>
