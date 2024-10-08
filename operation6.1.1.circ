@@ -61,7 +61,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(170,490)" to="(170,500)"/>
     <wire from="(330,610)" to="(380,610)"/>
-    <wire from="(330,770)" to="(380,770)"/>
     <wire from="(60,200)" to="(60,340)"/>
     <wire from="(250,570)" to="(250,590)"/>
     <wire from="(290,770)" to="(290,790)"/>
@@ -71,14 +70,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(560,200)" to="(560,230)"/>
     <wire from="(220,420)" to="(220,440)"/>
     <wire from="(90,140)" to="(130,140)"/>
+    <wire from="(600,470)" to="(600,550)"/>
     <wire from="(560,190)" to="(580,190)"/>
     <wire from="(560,230)" to="(580,230)"/>
-    <wire from="(560,550)" to="(580,550)"/>
     <wire from="(60,550)" to="(150,550)"/>
     <wire from="(150,550)" to="(150,590)"/>
+    <wire from="(450,720)" to="(470,720)"/>
     <wire from="(120,830)" to="(140,830)"/>
     <wire from="(120,910)" to="(140,910)"/>
     <wire from="(370,810)" to="(380,810)"/>
+    <wire from="(380,740)" to="(390,740)"/>
     <wire from="(470,550)" to="(480,550)"/>
     <wire from="(170,530)" to="(180,530)"/>
     <wire from="(170,490)" to="(180,490)"/>
@@ -88,10 +89,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,850)" to="(290,850)"/>
     <wire from="(580,380)" to="(580,430)"/>
     <wire from="(120,710)" to="(120,830)"/>
+    <wire from="(590,550)" to="(600,550)"/>
+    <wire from="(380,740)" to="(380,810)"/>
     <wire from="(90,140)" to="(90,400)"/>
     <wire from="(280,250)" to="(470,250)"/>
     <wire from="(210,100)" to="(210,110)"/>
     <wire from="(210,220)" to="(210,230)"/>
+    <wire from="(480,530)" to="(530,530)"/>
+    <wire from="(480,570)" to="(530,570)"/>
     <wire from="(400,380)" to="(580,380)"/>
     <wire from="(90,630)" to="(270,630)"/>
     <wire from="(30,60)" to="(30,970)"/>
@@ -101,15 +106,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(470,720)" to="(470,740)"/>
     <wire from="(290,100)" to="(290,130)"/>
     <wire from="(90,50)" to="(90,140)"/>
-    <wire from="(330,740)" to="(330,770)"/>
     <wire from="(170,500)" to="(170,530)"/>
     <wire from="(60,670)" to="(160,670)"/>
     <wire from="(90,750)" to="(90,970)"/>
     <wire from="(680,450)" to="(680,470)"/>
+    <wire from="(190,420)" to="(220,420)"/>
     <wire from="(380,530)" to="(410,530)"/>
     <wire from="(380,570)" to="(410,570)"/>
-    <wire from="(470,700)" to="(500,700)"/>
-    <wire from="(470,740)" to="(500,740)"/>
     <wire from="(300,420)" to="(320,420)"/>
     <wire from="(680,430)" to="(710,430)"/>
     <wire from="(680,470)" to="(710,470)"/>
@@ -135,9 +138,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(60,340)" to="(130,340)"/>
     <wire from="(220,690)" to="(350,690)"/>
     <wire from="(90,440)" to="(90,630)"/>
-    <wire from="(560,720)" to="(680,720)"/>
     <wire from="(60,340)" to="(60,470)"/>
-    <wire from="(420,720)" to="(470,720)"/>
     <wire from="(210,150)" to="(210,160)"/>
     <wire from="(210,270)" to="(210,280)"/>
     <wire from="(30,50)" to="(30,60)"/>
@@ -147,16 +148,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(290,830)" to="(290,850)"/>
     <wire from="(60,470)" to="(60,550)"/>
     <wire from="(220,400)" to="(220,420)"/>
-    <wire from="(580,470)" to="(580,550)"/>
+    <wire from="(90,400)" to="(130,400)"/>
+    <wire from="(90,440)" to="(130,440)"/>
     <wire from="(120,710)" to="(160,710)"/>
     <wire from="(240,510)" to="(280,510)"/>
     <wire from="(340,490)" to="(380,490)"/>
+    <wire from="(350,700)" to="(390,700)"/>
     <wire from="(150,590)" to="(180,590)"/>
     <wire from="(150,550)" to="(180,550)"/>
+    <wire from="(470,740)" to="(560,740)"/>
+    <wire from="(470,700)" to="(560,700)"/>
     <wire from="(470,80)" to="(470,180)"/>
     <wire from="(360,80)" to="(390,80)"/>
-    <wire from="(480,530)" to="(500,530)"/>
-    <wire from="(480,570)" to="(500,570)"/>
     <wire from="(140,750)" to="(160,750)"/>
     <wire from="(140,790)" to="(160,790)"/>
     <wire from="(140,830)" to="(160,830)"/>
@@ -174,8 +177,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(670,450)" to="(680,450)"/>
     <wire from="(640,210)" to="(760,210)"/>
     <wire from="(560,190)" to="(560,200)"/>
-    <wire from="(90,400)" to="(140,400)"/>
-    <wire from="(90,440)" to="(140,440)"/>
+    <wire from="(620,720)" to="(680,720)"/>
     <wire from="(390,60)" to="(390,80)"/>
     <wire from="(480,550)" to="(480,570)"/>
     <wire from="(470,700)" to="(470,720)"/>
@@ -185,7 +187,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(680,430)" to="(680,450)"/>
     <wire from="(540,200)" to="(560,200)"/>
     <wire from="(60,470)" to="(280,470)"/>
-    <wire from="(330,740)" to="(360,740)"/>
     <wire from="(250,590)" to="(270,590)"/>
     <wire from="(290,790)" to="(310,790)"/>
     <wire from="(290,830)" to="(310,830)"/>
@@ -193,11 +194,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(130,80)" to="(130,120)"/>
     <wire from="(130,200)" to="(130,240)"/>
     <wire from="(580,430)" to="(610,430)"/>
-    <wire from="(580,470)" to="(610,470)"/>
     <wire from="(380,490)" to="(380,530)"/>
     <wire from="(380,570)" to="(380,610)"/>
-    <wire from="(380,770)" to="(380,810)"/>
-    <wire from="(200,420)" to="(220,420)"/>
     <wire from="(220,400)" to="(240,400)"/>
     <wire from="(220,440)" to="(240,440)"/>
     <wire from="(470,220)" to="(480,220)"/>
@@ -206,7 +204,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(140,910)" to="(220,910)"/>
     <wire from="(390,60)" to="(400,60)"/>
     <wire from="(390,100)" to="(400,100)"/>
-    <wire from="(350,700)" to="(360,700)"/>
     <wire from="(130,80)" to="(140,80)"/>
     <wire from="(130,120)" to="(140,120)"/>
     <wire from="(130,200)" to="(140,200)"/>
@@ -217,80 +214,118 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(60,80)" to="(130,80)"/>
     <wire from="(60,200)" to="(130,200)"/>
     <wire from="(120,910)" to="(120,970)"/>
+    <wire from="(600,470)" to="(610,470)"/>
+    <comp lib="6" loc="(267,838)" name="Text">
+      <a name="text" val="D'"/>
+    </comp>
+    <comp lib="1" loc="(280,930)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(653,411)" name="Text">
+      <a name="text" val="(BC'D'+BD'+B'C)'"/>
+    </comp>
+    <comp lib="0" loc="(760,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="6" loc="(118,23)" name="Text">
+      <a name="text" val="D"/>
+    </comp>
+    <comp lib="6" loc="(289,347)" name="Text">
+      <a name="text" val="B'"/>
+    </comp>
+    <comp lib="6" loc="(420,795)" name="Text">
+      <a name="text" val="(C'+D')' = CD"/>
+    </comp>
     <comp lib="1" loc="(300,420)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(240,510)" name="NOR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(420,1019)" name="Text">
+      <a name="text" val="Figure E3 : Minimal Universal gate implementation of BCD to Excess-3 Converter"/>
     </comp>
-    <comp lib="6" loc="(693,198)" name="Text">
-      <a name="text" val="W= A+BC+BD"/>
-    </comp>
-    <comp lib="1" loc="(420,720)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(200,100)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(208,208)" name="Text">
-      <a name="text" val="B'"/>
-    </comp>
-    <comp lib="1" loc="(280,130)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(200,220)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(299,161)" name="Text">
-      <a name="text" val="(B'+C')'=BC"/>
-    </comp>
-    <comp lib="1" loc="(200,280)" name="NOR Gate">
+    <comp lib="1" loc="(450,720)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(540,200)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(770,450)" name="NOR Gate">
+    <comp lib="1" loc="(670,450)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(199,310)" name="Text">
-      <a name="text" val="D'"/>
-    </comp>
-    <comp lib="6" loc="(118,23)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="1" loc="(460,80)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(695,840)" name="Text">
-      <a name="text" val="ID : 2311677042"/>
-    </comp>
-    <comp lib="0" loc="(120,50)" name="Pin">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(200,420)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(185,186)" name="Text">
-      <a name="text" val="C'"/>
-    </comp>
-    <comp lib="1" loc="(340,490)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(349,53)" name="Text">
-      <a name="text" val="(A+BC)'"/>
-    </comp>
-    <comp lib="6" loc="(482,68)" name="Text">
-      <a name="text" val="A+BC"/>
-    </comp>
-    <comp lib="1" loc="(280,930)" name="NOR Gate">
+    <comp lib="1" loc="(470,550)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="6" loc="(541,175)" name="Text">
       <a name="text" val="(A+BC+BD)'"/>
     </comp>
+    <comp lib="6" loc="(255,567)" name="Text">
+      <a name="text" val="B'"/>
+    </comp>
+    <comp lib="6" loc="(328,240)" name="Text">
+      <a name="text" val="(B'+D')'=BD"/>
+    </comp>
+    <comp lib="6" loc="(231,649)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="1" loc="(200,280)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(460,80)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(28,20)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="1" loc="(340,490)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(620,720)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(770,450)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(87,24)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="6" loc="(471,686)" name="Text">
+      <a name="text" val="(C'D'+CD)'"/>
+    </comp>
+    <comp lib="1" loc="(280,130)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="1" loc="(640,210)" name="NOR Gate">
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(344,597)" name="Text">
+      <a name="text" val="(B'+C)'"/>
+    </comp>
+    <comp lib="6" loc="(262,758)" name="Text">
+      <a name="text" val="C'"/>
+    </comp>
+    <comp lib="6" loc="(304,442)" name="Text">
+      <a name="text" val="(C+D)"/>
+    </comp>
+    <comp lib="6" loc="(693,198)" name="Text">
+      <a name="text" val="W= A+BC+BD"/>
+    </comp>
+    <comp lib="1" loc="(200,100)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(220,690)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(244,536)" name="Text">
+      <a name="text" val="D'"/>
+    </comp>
+    <comp lib="1" loc="(240,570)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(208,208)" name="Text">
+      <a name="text" val="B'"/>
+    </comp>
+    <comp lib="0" loc="(120,50)" name="Pin">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(30,50)" name="Pin">
       <a name="facing" val="south"/>
@@ -298,102 +333,113 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(330,610)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(809,428)" name="Text">
-      <a name="text" val="X=(BC'D'+BD'+B'C)"/>
+    <comp lib="1" loc="(220,850)" name="NOR Gate">
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(850,450)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="6" loc="(482,68)" name="Text">
+      <a name="text" val="A+BC"/>
+    </comp>
+    <comp lib="1" loc="(220,770)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(360,80)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(185,186)" name="Text">
+      <a name="text" val="C'"/>
+    </comp>
+    <comp lib="6" loc="(349,53)" name="Text">
+      <a name="text" val="(A+BC)'"/>
+    </comp>
+    <comp lib="1" loc="(280,250)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(300,680)" name="Text">
+      <a name="text" val="(C+D)'=C'D'"/>
+    </comp>
+    <comp lib="6" loc="(199,310)" name="Text">
+      <a name="text" val="D'"/>
     </comp>
     <comp lib="0" loc="(60,50)" name="Pin">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="6" loc="(87,24)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="1" loc="(400,380)" name="NOR Gate">
+    <comp lib="1" loc="(200,360)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(560,550)" name="NOR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="0" loc="(90,50)" name="Pin">
+      <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(470,550)" name="NOR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(346,474)" name="Text">
+      <a name="text" val="(B+D')'"/>
     </comp>
-    <comp lib="1" loc="(200,160)" name="NOR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(206,90)" name="Text">
+      <a name="text" val="B'"/>
     </comp>
-    <comp lib="1" loc="(240,570)" name="NOR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(665,696)" name="Text">
+      <a name="text" val="Y=C'D'+CD"/>
     </comp>
-    <comp lib="1" loc="(370,810)" name="NOR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(56,21)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="6" loc="(186,445)" name="Text">
+      <a name="text" val="(C+D)'"/>
     </comp>
     <comp lib="0" loc="(640,930)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="6" loc="(206,90)" name="Text">
-      <a name="text" val="B'"/>
+    <comp lib="6" loc="(691,821)" name="Text">
+      <a name="text" val="Nafia Haque Muskan"/>
     </comp>
-    <comp lib="1" loc="(560,720)" name="NOR Gate">
+    <comp lib="1" loc="(200,160)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(760,210)" name="Pin">
+    <comp lib="1" loc="(400,380)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(299,161)" name="Text">
+      <a name="text" val="(B'+C')'=BC"/>
+    </comp>
+    <comp lib="6" loc="(809,428)" name="Text">
+      <a name="text" val="X=(BC'D'+BD'+B'C)"/>
+    </comp>
+    <comp lib="1" loc="(590,550)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(850,450)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="1" loc="(220,770)" name="NOR Gate">
+    <comp lib="1" loc="(190,420)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(220,690)" name="NOR Gate">
+    <comp lib="6" loc="(406,915)" name="Text">
+      <a name="text" val="Z=D'"/>
+    </comp>
+    <comp lib="1" loc="(200,220)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(200,360)" name="NOR Gate">
+    <comp lib="1" loc="(370,810)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(280,250)" name="NOR Gate">
+    <comp lib="6" loc="(443,509)" name="Text">
+      <a name="text" val="(BD'+B'C)'"/>
+    </comp>
+    <comp lib="6" loc="(586,587)" name="Text">
+      <a name="text" val="(BD'+B'C)"/>
+    </comp>
+    <comp lib="1" loc="(240,510)" name="NOR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(670,450)" name="NOR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(467,368)" name="Text">
+      <a name="text" val="BC'D'"/>
     </comp>
-    <comp lib="1" loc="(220,850)" name="NOR Gate">
-      <a name="inputs" val="2"/>
+    <comp lib="6" loc="(695,840)" name="Text">
+      <a name="text" val="ID : 2311677042"/>
     </comp>
     <comp lib="0" loc="(680,720)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-    </comp>
-    <comp lib="6" loc="(361,1005)" name="Text">
-      <a name="text" val="Figure E3 : Minimal Universal gate implementation of BCD to Excess-3 Converter"/>
-    </comp>
-    <comp lib="6" loc="(56,21)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="6" loc="(369,908)" name="Text">
-      <a name="text" val="Z=D'"/>
-    </comp>
-    <comp lib="6" loc="(608,708)" name="Text">
-      <a name="text" val="Y=C'D'+CD"/>
-    </comp>
-    <comp lib="6" loc="(691,821)" name="Text">
-      <a name="text" val="Nafia Haque Muskan"/>
-    </comp>
-    <comp lib="6" loc="(28,20)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="1" loc="(360,80)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(653,411)" name="Text">
-      <a name="text" val="(BC'D'+BD'+B'C)'"/>
-    </comp>
-    <comp lib="0" loc="(90,50)" name="Pin">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="6" loc="(328,240)" name="Text">
-      <a name="text" val="(B'+D')'=BD"/>
     </comp>
   </circuit>
 </project>
