@@ -52,23 +52,102 @@
     <tool lib="4" name="Register"/>
   </toolbar>
   <circuit name="main">
-    <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="8" loc="(1206,241)" name="Text">
+    <comp lib="0" loc="(490,360)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(490,390)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(490,440)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(510,500)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(630,280)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(680,530)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(730,530)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(820,380)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="0" loc="(930,420)" name="Pin">
+      <a name="appearance" val="classic"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="8" loc="(715,595)" name="Text">
+      <a name="text" val="Fig : Register File"/>
+    </comp>
+    <comp lib="8" loc="(965,275)" name="Text">
       <a name="text" val="SAKIB AHMED SHISHIR"/>
     </comp>
-    <comp lib="8" loc="(1208,264)" name="Text">
+    <comp lib="8" loc="(970,295)" name="Text">
       <a name="text" val="2312546642"/>
     </comp>
-    <comp loc="(590,150)" name="Register_16bit"/>
+    <comp loc="(1200,410)" name="Register_16bit"/>
+    <comp loc="(800,320)" name="Register_16bit"/>
+    <wire from="(490,360)" to="(660,360)"/>
+    <wire from="(490,390)" to="(660,390)"/>
+    <wire from="(490,440)" to="(660,440)"/>
+    <wire from="(510,500)" to="(540,500)"/>
+    <wire from="(540,460)" to="(540,500)"/>
+    <wire from="(540,460)" to="(660,460)"/>
+    <wire from="(630,270)" to="(630,280)"/>
+    <wire from="(630,270)" to="(680,270)"/>
+    <wire from="(680,270)" to="(680,320)"/>
+    <wire from="(680,500)" to="(680,530)"/>
+    <wire from="(730,500)" to="(730,530)"/>
+    <wire from="(760,380)" to="(820,380)"/>
+    <wire from="(760,420)" to="(930,420)"/>
   </circuit>
   <circuit name="Register_16bit">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="Register_16bit"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <appear>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="176" y="180">WriteData</text>
+      <path d="M184,40 Q201,79 213,40" fill="none" stroke="#000000"/>
+      <rect fill="none" height="181" stroke="#000000" width="101" x="149" y="39"/>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="183" y="159">WriteRegister</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="221" y="99">ReadData1</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="216" y="139">ReadData2</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="179" y="80">Read_Reg1</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="180" y="110">Read_Reg2</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="7" text-anchor="middle" x="171" y="54">WriteEnable</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="225" y="205">Clear</text>
+      <text dominant-baseline="central" font-family="SansSerif" font-size="8" text-anchor="middle" x="171" y="203">CLK</text>
+      <circ-anchor facing="east" x="290" y="40"/>
+      <circ-port dir="in" pin="1050,1070" x="150" y="110"/>
+      <circ-port dir="in" pin="1070,680" x="150" y="80"/>
+      <circ-port dir="in" pin="170,830" x="150" y="160"/>
+      <circ-port dir="in" pin="340,90" x="150" y="180"/>
+      <circ-port dir="in" pin="370,170" x="170" y="40"/>
+      <circ-port dir="in" pin="580,1260" x="170" y="220"/>
+      <circ-port dir="in" pin="700,1250" x="220" y="220"/>
+      <circ-port dir="out" pin="1180,920" x="250" y="140"/>
+      <circ-port dir="out" pin="1200,490" x="250" y="100"/>
+    </appear>
     <comp lib="0" loc="(1050,1070)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="Read_Reg2"/>
@@ -107,8 +186,8 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="WriteEnable"/>
     </comp>
-    <comp lib="0" loc="(600,1260)" name="Clock">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(580,1260)" name="Pin">
+      <a name="appearance" val="classic"/>
       <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(700,1250)" name="Pin">
@@ -218,7 +297,10 @@
     <comp lib="8" loc="(1315,1215)" name="Text">
       <a name="text" val="GROUP-9"/>
     </comp>
-    <comp lib="8" loc="(655,1390)" name="Text">
+    <comp lib="8" loc="(587,1339)" name="Text">
+      <a name="text" val="Fig : "/>
+    </comp>
+    <comp lib="8" loc="(687,1341)" name="Text">
       <a name="text" val="16 Bit Register File"/>
     </comp>
     <wire from="(1050,1070)" to="(1060,1070)"/>
@@ -325,6 +407,7 @@
     <wire from="(470,860)" to="(650,860)"/>
     <wire from="(470,920)" to="(650,920)"/>
     <wire from="(470,980)" to="(650,980)"/>
+    <wire from="(580,1260)" to="(600,1260)"/>
     <wire from="(600,1000)" to="(600,1060)"/>
     <wire from="(600,1000)" to="(660,1000)"/>
     <wire from="(600,1060)" to="(600,1120)"/>
