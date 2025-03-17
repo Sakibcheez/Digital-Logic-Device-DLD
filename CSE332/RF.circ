@@ -57,41 +57,50 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(490,360)" name="Pin">
       <a name="appearance" val="classic"/>
+      <a name="label" val="rs"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(490,390)" name="Pin">
       <a name="appearance" val="classic"/>
+      <a name="label" val="rt"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(490,440)" name="Pin">
       <a name="appearance" val="classic"/>
+      <a name="label" val="rd"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(510,500)" name="Pin">
       <a name="appearance" val="classic"/>
+      <a name="label" val="WriteData"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(630,280)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
+      <a name="label" val="WE"/>
     </comp>
     <comp lib="0" loc="(680,530)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
+      <a name="label" val="CLK"/>
     </comp>
     <comp lib="0" loc="(730,530)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
+      <a name="label" val="Clear"/>
     </comp>
     <comp lib="0" loc="(820,380)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
+      <a name="label" val="ReadData1"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
     </comp>
     <comp lib="0" loc="(930,420)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
+      <a name="label" val="ReadData2"/>
       <a name="output" val="true"/>
       <a name="width" val="16"/>
     </comp>
@@ -104,7 +113,7 @@
     <comp lib="8" loc="(970,295)" name="Text">
       <a name="text" val="2312546642"/>
     </comp>
-    <comp loc="(1200,410)" name="Register_16bit"/>
+    <comp loc="(1000,590)" name="Register_16bit"/>
     <comp loc="(800,320)" name="Register_16bit"/>
     <wire from="(490,360)" to="(660,360)"/>
     <wire from="(490,390)" to="(660,390)"/>
@@ -297,10 +306,10 @@
     <comp lib="8" loc="(1315,1215)" name="Text">
       <a name="text" val="GROUP-9"/>
     </comp>
-    <comp lib="8" loc="(587,1339)" name="Text">
+    <comp lib="8" loc="(585,1335)" name="Text">
       <a name="text" val="Fig : "/>
     </comp>
-    <comp lib="8" loc="(687,1341)" name="Text">
+    <comp lib="8" loc="(685,1340)" name="Text">
       <a name="text" val="16 Bit Register File"/>
     </comp>
     <wire from="(1050,1070)" to="(1060,1070)"/>
